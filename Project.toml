@@ -4,35 +4,64 @@ authors = ["Physicist <physicist@example.com>"]
 version = "1.0.0"
 
 [deps]
+# Core Julia packages
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+
+# Symbolic Mathematics - The Heart of Revolutionary Computational Physics
+Symbolics = "0c5d862f-a1a3-44de-a909-ce4e6376c2eb"
+SymbolicUtils = "d1185830-fcd6-423d-90d6-eec64667417b"
+Latexify = "23fbe1c1-af81-4c2f-9c93-5a7fcc5c27a4"
+SymbolicNumericIntegration = "dc0a24a0-0b78-4c0b-9e3c-c16b3b7e7e8b"
+
+# Scientific Computing and Differential Equations
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-PlotlyJS = "f0f68f2c-4968-5e81-91da-67840de0976a"
-LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
-Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
-UnitfulAstro = "6112ee07-acf9-5e0f-b108-d242c714bf9f"
-PhysicalConstants = "5ad8b20f-a522-5ce9-bfc9-ddf1d5bda6ab"
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+# Units and Physical Constants
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+UnitfulAstro = "6112ee07-acf9-5e0f-b108-d242c714bf9f"
+UnitfulLatexify = "45397f5d-5981-4c77-b2b3-fc36d6e9b728"
+PhysicalConstants = "5ad8b20f-a522-5ce9-bfc9-ddf1d5bda6ab"
+
+# Visualization and Plotting
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PlotlyJS = "f0f68f2c-4968-5e81-91da-67840de0976a"
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
+ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+
+# Statistics and Distributions
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
+# Performance and Benchmarking
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+RuntimeGeneratedFunctions = "7e49a35a-f44a-4d26-94aa-eba1b4ca6b47"
+
+# Interactive Development
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
 IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
-Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
-ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
-StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+
+# Web and Documentation
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 Franklin = "713c75ef-9fc9-4b05-94a9-213340da978e"
 DocumenterLaTeX = "cd674d7a-5f81-5cf5-8b9d-6b91c0b6d713"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+# Additional Symbolic and Mathematical Tools
+AbstractAlgebra = "c3fe647b-0824-4c39-b929-7090019d8aca"
+Groebner = "0b43b601-686d-58a3-8a1c-6623616c7cd4"
+Nemo = "2edaba10-b0f1-5616-af89-8c11ac63239a"
 
 [compat]
 julia = "1.9"

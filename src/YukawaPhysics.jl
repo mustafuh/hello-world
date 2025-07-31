@@ -26,16 +26,25 @@ using LinearAlgebra
 using Printf
 using Random
 
-# Scientific computing
+# Symbolic Mathematics - Revolutionary Computational Physics Core
+using Symbolics
+using SymbolicUtils
+using Latexify
+using SymbolicNumericIntegration
+
+# Scientific computing and modeling
 using DifferentialEquations
+using ModelingToolkit
 using SpecialFunctions
 using QuadGK
 using FFTW
 using StaticArrays
+using RuntimeGeneratedFunctions
 
 # Units and constants
 using Unitful
 using UnitfulAstro
+using UnitfulLatexify
 using PhysicalConstants.CODATA2018
 
 # Visualization and plotting
@@ -48,6 +57,11 @@ using LaTeXStrings
 # Statistics and distributions
 using StatsBase
 using Distributions
+
+# Advanced symbolic mathematics
+using AbstractAlgebra
+using Groebner
+using Nemo
 
 # Performance tools
 using BenchmarkTools
